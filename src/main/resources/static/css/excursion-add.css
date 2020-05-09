@@ -1,0 +1,31 @@
+.container {
+    padding-top: 120px;
+}
+
+.btn-color {
+    background-color: lavender;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px 18px;
+}
+.btn-color a {
+    text-decoration: none;
+}
+
+.btn-color:hover {
+    opacity: 0.8;
+}
+
+.border-dashed{
+    background: rgb(217, 231, 236);
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.border-3 {
+    border-width:3px !important;
+    border-bottom-color: #cacaca !important;
+}

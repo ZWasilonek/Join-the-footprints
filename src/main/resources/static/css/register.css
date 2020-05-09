@@ -1,0 +1,80 @@
+.container {
+    width: 360px;
+    padding: 120px 0 0;
+    margin: auto;
+    max-height: 500px;
+}
+
+.logo {
+    padding-top: 0;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #000000;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: black;
+    background-color: rgba(0,0,0,.5);
+    max-width: 460px;
+    margin: 0;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 7px 7px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2ab;
+    width: 100%;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #07455a;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+    background: rgb(116, 184, 248);
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    font-size: 16px;
+    color: rgb(173, 79, 185);
+    text-decoration: none;
+}
+
+.form-group {
+    color: palevioletred;
+}
+
+body {
+    display: block;
+    background: url('https://www.traveldailymedia.com/assets/2019/08/adventure-travel-cliff.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,95 @@
+body * {
+    box-sizing: border-box;
+    /*margin: auto;*/
+    /*padding: 0;*/
+}
+
+body  {
+    background: url("https://www.tapeteos.pl/data/media/1252/big/tekstura__texture__tlo__grafika_014_drewno__niebieskie.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.507);
+    padding-top: 120px;
+    padding-right:0;
+    padding-left:0;
+}
+
+.top-exc-compl {
+    padding: 15px;
+    margin:15px;
+}
+
+.main-content {
+    /*margin-top:150px;*/
+    min-height: 300px;
+    background-color: rgb(219, 243, 243);
+    text-align: center;
+    font-size: large;
+}
+
+.exc-img {
+    width: 100%;
+    /* potem usuń poniżej */
+    height: 250px;
+    max-height: 250px;
+}
+
+.exc-info-item {
+    padding: 2px;
+    margin: 0;
+}
+
+.exc-info {
+    padding: 25px;
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+}
+
+.exc-top-inf {
+    text-align: left;
+    margin: 2px;
+}
+
+.exc-list {
+    padding: 15px;
+    background-color: rgb(224, 249, 251);
+}
+
+.category-items li {
+    padding: 0 15px 0 15px;
+    display: inline;
+}
+
+.category-items {
+    padding: 0;
+}
+
+.first-exc {
+    border: #07455a 3px solid;
+    background-color: rgb(190, 226, 240) !important;
+}
+
+.customDiv {
+    padding: 1em;
+    margin: 20px;
+    min-height: 15em;
+    background-color: rgb(174, 167, 180);
+}
+
+.right-bar {
+    margin:3px;
+    min-height: 300px;
+    background-color: teal;
+    text-align: center;
+    font-size: large;
+}
+
+.right-bar {
+    margin-top: 150px;
+}
+
+.exc-content {
+    background-color: rgb(190, 230, 241);
+}
